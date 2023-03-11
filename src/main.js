@@ -6,7 +6,7 @@ const Main = () => {
     return ( 
         <>
          <Routes>
-            <Route path="/leaderboard" element={< Leaderboard/>} />
+            <Route path="/" element={< Leaderboard/>} />
             <Route path="/validatorDetails" element={< Validatordetails/>} />
             {/* <Route path="*" element= {
                 <div>404</div>
