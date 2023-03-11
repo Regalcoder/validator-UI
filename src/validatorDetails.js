@@ -93,7 +93,7 @@ const Validatordetails = () => {
 
                     </div>
                 </div>
-                <Link to='/leaderboard'><button className="backButton">Back to all validators</button></Link>
+                <Link to='/'><button className="backButton">Back to all validators</button></Link>
                 <div className="secondFlex">
                     <img src="arrows.png" width='18px' height='20px' alt=""></img>
                     <h2 className="bottomHeader">Recent Activity</h2>
