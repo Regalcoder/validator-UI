@@ -210,8 +210,8 @@ const Leaderboard = () => {
                         <p className="navText">showing 1-20 <span className="navText2">of 63</span></p>
                         
                     </div>
-                    <Link className="anchorColor navText" to='/leaderboard'>First</Link>
-                    <Link className="anchorColor navText" to='/leaderboard'>Last</Link>
+                    <Link className="anchorColor navText" to='/'>First</Link>
+                    <Link className="anchorColor navText" to='/'>Last</Link>
                 </div>
             </div>
 

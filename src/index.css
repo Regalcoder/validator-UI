@@ -716,3 +716,77 @@ code {
   margin-top: 40px;
   text-align: center;
 }
+
+
+@media screen and (max-width: 770px){
+  .body{
+    width: 100%;
+    height: auto;
+    font-family: 'AvertaStd-Semibold';
+    background-color: #0D0D0D;
+  }
+
+  .header1{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .searchContainer{
+    width: 50%;
+    height: 40px;
+    margin: auto;
+  }
+
+  .searchBox{
+    width: 90%;
+    height: 39px;
+  }
+
+  .navigation{
+    display: flex;
+    width: 90%;
+    height: 70px;
+    
+    margin-left: 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navText{
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+
+  .body{
+    width: 100%;
+    height: auto;
+    font-family: 'AvertaStd-Semibold';
+    background-color: #ED3A3A !important;
+  }
+
+  .header1{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .searchContainer{
+    width: 60%;
+    height: 40px;
+    background-color: #0075FF;
+    margin: auto;
+  }
+
+  .searchBox{
+    width: 70%;
+    height: 39px;
+  }
+  
+}
