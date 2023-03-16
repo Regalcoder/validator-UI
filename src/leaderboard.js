@@ -9,7 +9,7 @@ const Leaderboard = () => {
                 <h3 className="header1">Rebound Explorer</h3>
                 <div className="searchContainer">
                     <input type="search" name="" className="searchBox" id="" placeholder="Search for account name, transaction or wallet address" />
-                    <div className="searchBackground"> <img className="imgpad" src="/search.png" width='24px' alt="" /> </div>
+                    <div className="searchBackground"> <Link href='/'><img className="imgpad" src="/search.png" width='24px' alt="" /></Link> </div>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@ const Leaderboard = () => {
                 <table className="table">
                         <thead>
                             <tr >
-                                <th scope="col" className='tableHead'>Rank <img src="Arrow.png" alt="" width='8px'></img></th>
+                                <th scope="col" className='tableHead'>Rank <img src="Arrow.png" className="image" alt="" width='8px'></img></th>
                                 <th scope="col" className='tableHead'>Account</th>
                                 <th scope="col" className='tableHead'>Total Votes</th>
                                 <th scope="col" className='tableHead'>Voters</th>

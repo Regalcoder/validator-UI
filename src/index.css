@@ -23,6 +23,7 @@ code {
   width: auto;
   height: auto;
   font-family: 'AvertaStd-Semibold';
+  background-color: #0D0D0D;
 }
 
 .container1{
@@ -759,6 +760,18 @@ code {
     color: #ffffff;
     margin-left: 60px;
   }
+
+  .image{
+    display: none;
+  }
+
+  .tableContainer{
+    width: 95%;
+  }
+
+  .tableHead:nth-child(6){
+    width: 200px;
+  }
 }
 
 
@@ -768,7 +781,7 @@ code {
     width: 100%;
     height: auto;
     font-family: 'AvertaStd-Semibold';
-    background-color: #ED3A3A !important;
+    
   }
 
   .header1{
@@ -780,12 +793,11 @@ code {
   .searchContainer{
     width: 60%;
     height: 40px;
-    background-color: #0075FF;
     margin: auto;
   }
 
   .searchBox{
-    width: 70%;
+    width: 90%;
     height: 39px;
   }
   
