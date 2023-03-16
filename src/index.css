@@ -797,8 +797,76 @@ code {
   }
 
   .searchBox{
-    width: 90%;
+    width: 85%;
     height: 39px;
   }
+
+  .searchBackground{
+    width: 20%;
+  }
+
+  .headerSmall{
+    line-height: 24px;
+  }
+
+  .tableContainer{
+    width: 89%;
+  }
+
+  .texts{
+    font-size: 18px;
+    line-height: 24px;
+  }
   
+  .tableContainer{
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .tableContainer::-webkit-scrollbar{
+    display: none;
+  }
+
+  .tableHead:nth-child(6){
+    line-height: 10px;
+  }
+
+  .flex2{
+    width: 80%;
+    display: unset;
+  }
+
+  .navText{
+    text-align: left;
+  }
+  
+}
+
+@media screen and (max-width: 375px){
+  .searchBox{
+    width: 82%;
+  }
+
+  .searchBackground{
+    width: 20%;
+  }
+
+  .tableContainer{
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .searchBox{
+    width: 80%;
+  }
+
+  .searchBackground{
+    width: 20%;
+  }
+
+  .tableContainer{
+    width: 85%;
+  }
 }
