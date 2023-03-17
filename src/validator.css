@@ -419,6 +419,7 @@
   
   .pagespan{
     color: #A7A7A7;
+    padding-left: 3px;
   }
   
   .pageContainer2{
@@ -448,4 +449,220 @@
   .copyright{
     margin-top: 40px;
     text-align: center;
+  }
+
+
+  /* tablet screen size */
+  @media screen and (max-width: 770px){
+
+    .buttonflex{
+      flex-direction: column;
+      width: 93%;
+      gap: 20px;
+    }
+
+    .buttonContainer{
+      display: flex;
+      width: 100%;
+      justify-content: unset;
+      gap: 10px;
+    }
+
+    
+
+    .receive{
+      width: 114px;
+      height: 43px;
+    }
+
+    .claim{
+      width: 117px;
+      height: 43px;
+    }
+
+    .send{
+      width: 97px;
+      height: 43px;
+    }
+
+    .calender{
+      width: 320px;
+      height: 43px;
+      padding: 0px 10px;
+    }
+    
+    .buttonContainer2{
+      width: 330px;
+    }
+
+    .reset{
+      width: 160px;
+      height: 45px;
+      padding-left: 0px; 
+    }
+
+    .export{
+      width: 160px;
+      height: 43px;  
+    }
+
+    .table3Container{
+      width: 86%;
+    }
+
+    .table3Container{
+      
+      overflow-y: hidden;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .table3Container::-webkit-scrollbar{
+      display: none;
+    }
+
+    .table3{
+      width: 900px;
+    }
+
+    .tableData2:nth-child(4){
+      width: 180px;
+    }
+
+  }
+
+
+  /* medium phone screen size */
+  @media screen and (max-width: 425px) {
+    .validatorFlex{
+      margin: 50px auto;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .twinContainer{
+      width: 90%;
+      height: auto;
+      box-shadow: 0px 0px 10px #396B6B;
+      border-radius: 8px;
+      margin: auto;
+    }
+
+    .buttonContainer{
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: unset;
+    }
+
+    .table3Container{
+      width: 85.5%;
+      border-radius: 0px;
+      margin-left: 0px;
+    }
+
+    .pageFlex{
+      width: 85%;
+    }
+
+    .tableData2:nth-child(4){
+      width: 180px;
+    }
+
+    .table3{
+      width: 900px;
+    }
+
+    
+  }
+
+
+   /* small phone screen size */
+  @media screen and (max-width: 375px) {
+    .table3Container{
+      width: 83.5%;
+    }
+
+    .buttonContainer{
+      gap: 5px;
+    }
+
+    
+
+    .receive{
+      width: 105px;
+    }
+
+    .claim{
+      width: 105px;
+    }
+
+    .send{
+      width: 90px;
+    }
+
+    .calender{
+      width: 310px;
+      margin-top: 10px;
+    }
+  }
+  
+
+  /* smallest phone screen size */
+  @media screen and (max-width: 320px) {
+    .backButton{
+      margin-left: 20px;
+    }
+
+    .secondFlex{
+      margin-left: 20px;
+    }
+
+    .paratext{
+      margin-left: 20px;
+    }
+
+    .buttonflex{
+      margin-left: 20px;
+    }
+
+    .claim{
+      width: 100px;
+    }
+
+    .send{
+      width: 78px;
+    }
+
+    .calender{
+      width: 90%;
+      margin-top: 10px;
+      font-size: 13px;
+    }
+
+    .receive{
+      width: 100px;
+    }
+
+    .buttonContainer2{
+      width: 100%;
+      justify-content: unset;
+      gap: 5px;
+    }
+
+    .reset{
+      width: 40%;
+      height: 45px;
+      padding-left: 0px; 
+    }
+
+    .export{
+      width: 55%;
+      height: 43px;  
+    }
+
+    .table3Container{
+      width: 80.5%;
+    }
+
+    
   }

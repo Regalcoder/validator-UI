@@ -68,8 +68,8 @@ const Validatordetails = () => {
                                 <td className="data">Socials:</td>
                                 <td className="data">
                                     <div className="socials">
-                                        <a href="twitter.com"><img src="twitter.png" width='24px' alt=""></img></a>
-                                        <a href="telegram.com"><img src="telegram.png" width='24px' alt="" /></a>
+                                        <a href="twitter.com" target="_blank" ><img src="twitter.png" width='24px' alt=""></img></a>
+                                        <a href="telegram.com" target="_blank" ><img src="telegram.png" width='24px' alt="" /></a>
                                     </div>
                                 </td>
                             </tr>
@@ -106,7 +106,7 @@ const Validatordetails = () => {
                         <button className="claim">Claim rewards</button>
                         <button className="send">Send token</button>
                         <div className="calender">
-                            <img src="calender.png" height='12px' alt=""></img>
+                            <img className="calenderlogo" src="calender.png" height='12px' alt=""></img>
                             August 10, 2022 - September 10, 2022 
                             <img src="arrowdown.png" height='8px' alt=''></img>
                         </div>
@@ -227,7 +227,7 @@ const Validatordetails = () => {
 
                 </div>
                 <div className="pageFlex">
-                    <div className="pageContainer1"><p className="pages">Page 1 <span className="pagespan">of 63</span></p></div>
+                    <div className="pageContainer1"><p className="pages">Page 1 <span className="pagespan"> of 63</span></p></div>
 
                     <div className="pageContainer2">
                          <button className="pagination">1</button>
@@ -237,7 +237,7 @@ const Validatordetails = () => {
                          <button className="pagination">5</button>
                     </div>
                 </div>
-                <div className="copyright"><img src="copyright.png" alt="" height='10px' /></div>
+                
             </div>
         </div>
           
